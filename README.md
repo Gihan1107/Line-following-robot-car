@@ -17,7 +17,7 @@ The system reads sensor data in real time and adjusts motor speed and direction 
 
 ---
 
-## Components Used  
+## Components used  
 - Arduino Uno  
 - L298N Motor Driver  
 - IR Sensor Module (5 sensors)  
