@@ -1,5 +1,4 @@
 # Line-Following Robot Car  
-### Arduino Uno | IR Sensors | L298N Motor Driver
 
 ## Overview  
 This project is a **line-following robot car** built using an **Arduino Uno**.  
@@ -21,7 +20,7 @@ The system reads sensor data in real time and adjusts motor speed and direction 
 ## Components Used  
 - Arduino Uno  
 - L298N Motor Driver  
-- IR Sensor Module (2–5 sensors)  
+- IR Sensor Module (5 sensors)  
 - DC Gear Motors ×2  
 - Robot chassis  
 - Wheels  
@@ -30,7 +29,7 @@ The system reads sensor data in real time and adjusts motor speed and direction 
 
 ---
 
-## How It Works  
+## How it works  
 1. IR sensors detect the black/white contrast on the track.  
 2. Arduino reads sensor output continuously.  
 3. Based on the logic:  
@@ -41,7 +40,7 @@ The system reads sensor data in real time and adjusts motor speed and direction 
 
 ---
 
-## Skills Gained  
+## Skills gained  
 - Microcontroller programming (Arduino)  
 - Sensor data interpretation  
 - PWM motor control  
@@ -50,7 +49,7 @@ The system reads sensor data in real time and adjusts motor speed and direction 
 
 ---
 
-## Getting Started  
+## Getting started  
 1. Upload the Arduino code (`line_following.ino`) onto the Arduino Uno.  
 2. Connect IR sensors, motors, and L298N driver according to the wiring diagram.  
 3. Place the robot on a black track.  
